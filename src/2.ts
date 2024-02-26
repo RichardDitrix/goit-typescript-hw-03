@@ -6,9 +6,6 @@ class Employee {
     private department: string,
     protected salary: number,
   ) {
-	 this.salary = salary;
-    this.name = name;
-    this.department = department;
   }
 
   getEmployeeDetails() {
